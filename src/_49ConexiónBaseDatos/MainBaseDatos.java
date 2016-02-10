@@ -13,6 +13,9 @@ import java.sql.SQLException;
 /**
  *
  * @author root
+ * Patron de diseño ?= Conjunto destandarisado para odrenar la forma de trabajar(ordenar el codigo
+ * otros desarrolladores entiendan el codig)
+ * DAO=Separa la logica de la aplicacion con el acceso a la BD, con el fin de tener un orden
  */
 public class MainBaseDatos {
     public static void main(String[] args) throws SQLException {
